@@ -21,8 +21,7 @@ relaunch_sim
 
 open_vcd veer_wv.vcd
 log_vcd [get_objects /top_uvm/DUT/*]
-run 1ns
-#260000000ps
+run 260000000ps
 close_vcd
 after 3000
 write_xsim_coverage -cov_db_name cv_veerdb -cov_db_dir ./veer_uvm.sim/sim_1/behav/xsim
