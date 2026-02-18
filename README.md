@@ -1,5 +1,6 @@
 # UVM_VeeR
-UVM Environment for verifying the <a src ='https://github.com/chipsalliance/Cores-VeeR-EH1/tree/main'>Veer RISC-V-Based Core</a>. It levarages the usage of a mix of constrained randomization, concurrent and immediate assertions as well as having the support of well-built coverage groups
+<p>UVM Environment for verifying the <span><a src ='https://github.com/chipsalliance/Cores-VeeR-EH1/tree/main'>Veer RISC-V-Based Core</a></span><. It levarages the usage of a mix of constrained randomization, concurrent and immediate assertions as well as having the support of well-built coverage groups</p>
+  
 ## Steps to Run 
 
 ### Simulation and Coverage results generation
