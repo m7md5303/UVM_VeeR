@@ -14,7 +14,7 @@ source create_veerprj.tcl
 ```
 This script is responsible for generating the code coverage reports and vcd file for the waveform data
 
-The functional coverage can be produced through typing the next command line in Vivado TCL Console * After closing the simulation *
+The functional coverage can be produced through typing the next command line in Vivado TCL Console **After closing the simulation**
 ```tcl
 xcrg -report_format html -dir ./veer_uvm.sim/sim_1/behav/xsim/xsim.covdb/top_uvm_behav/xsim.covinfo -report_dir ./
 ```
