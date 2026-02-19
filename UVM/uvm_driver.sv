@@ -26,7 +26,7 @@ package veer_driver_pkg;
                 seqs_count++;
                 `uvm_info("run_phase",$sformatf("Starting Transaction number : %0d at simulation time : %0t",seqs_count,$time),UVM_HIGH);
                 //Driving the Design inputs
-                drive_in(seq_item_driver);
+                drive_in(seq_item_driver);//function for diriving the design. It can be divided into driving function for each interface for modularity (Future Work)
                 //Waiting for the next negative clock edge before starting a new transaction 
                 @(negedge vr_if_driver.clk);
                 seq_item_port.item_done();
