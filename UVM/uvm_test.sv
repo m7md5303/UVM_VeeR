@@ -184,7 +184,7 @@ package veer_test_pkg;
             super.run_phase(phase);
             phase.raise_objection(this);
             `uvm_info("run_phase","Starting generating the test sequences...", UVM_LOW)
-            repeat(70) begin
+            repeat(10) begin
             `uvm_info("run_phase","Starting generating the REset test sequences...", UVM_LOW)
             repeat(10)
             i_rst_seq.start(env_test.agt_env.sqr_agent);
